@@ -12,5 +12,7 @@ if (a > b)
     Console.WriteLine($" {a} more {b}");
 else if (a < b)
     Console.WriteLine($" {b} more {a}");
+else 
+    Console.WriteLine($"{a} and {b} equals ");
 
 
