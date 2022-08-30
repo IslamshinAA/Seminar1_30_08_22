@@ -10,15 +10,16 @@ int i = num;
 if(i % 2 == 0)
     while (i > 0)
 {
-    Console.Write(i + ", ");
-    i = i -2;
+    i -= 2;
+    Console.Write($"{i}, ");
 }
-else if(i % 2 !=0)
+else
     i--;
     while (i > 0)
 {
+    i -= 2;
     Console.Write(i + ", ");
-    i = i -2;
+    
 }
 
     
