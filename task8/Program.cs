@@ -6,21 +6,9 @@
 
 Console.WriteLine("Введите положительное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-int i = num;
-if(i % 2 == 0)
-    while (i > 0)
-{
-    i -= 2;
-    Console.Write($"{i}, ");
-}
-else
-    i--;
-    while (i > 0)
-{
-    i -= 2;
-    Console.Write(i + ", ");
-    
-}
+for(int i = 2; i <= num; i+=2)
+Console.Write($"{i} ");
+
 
     
     
